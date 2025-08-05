@@ -2,6 +2,12 @@
 
 A modern platform for entrepreneurs to pitch their startups, connect with other entrepreneurs, and participate in virtual competitions. Built with cutting-edge technologies for optimal performance and user experience.
 
+## 🌐 **Live Demo**
+
+**🚀 Production URL:** [https://pitchstartup-hub.vercel.app/](https://pitchstartup-hub.vercel.app/)
+
+*Experience the platform live with real startup pitches and full functionality!*
+
 ## 📋 Project Overview
 
 PitchStartup Hub is a comprehensive platform that enables entrepreneurs to:
@@ -168,12 +174,30 @@ All UI components are built with shadcn/ui and can be customized in the `compone
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Configure environment variables
-3. Deploy automatically on push to main branch
+### ✅ **Successfully Deployed on Vercel**
 
-### Other Platforms
+The application is **live and fully functional** at [https://pitchstartup-hub.vercel.app/](https://pitchstartup-hub.vercel.app/)
+
+### **Deployment Configuration**
+- **Platform:** Vercel
+- **Framework:** Next.js 15
+- **Domain:** pitchstartup-hub.vercel.app
+- **Status:** ✅ Production Ready
+- **Authentication:** GitHub OAuth fully configured
+- **Database:** Sanity CMS connected
+
+### **Environment Variables Configured**
+```env
+NEXTAUTH_URL=https://pitchstartup-hub.vercel.app
+NEXTAUTH_SECRET=configured
+GITHUB_ID=configured
+GITHUB_SECRET=configured
+NEXT_PUBLIC_SANITY_PROJECT_ID=configured
+NEXT_PUBLIC_SANITY_DATASET=production
+SANITY_API_TOKEN=configured
+```
+
+### **Other Deployment Options**
 The application can be deployed to any platform that supports Next.js:
 - Netlify
 - Railway
@@ -195,6 +219,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Esteban Canto** - [GitHub](https://github.com/EstebanCanVaz)
+
+## 🎉 **Project Status**
+
+- ✅ **Development Complete**
+- ✅ **Production Deployed**
+- ✅ **Authentication Working**
+- ✅ **Database Connected**
+- ✅ **All Features Functional**
 
 ## 🙏 Acknowledgments
 
