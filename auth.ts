@@ -5,6 +5,8 @@ import { AUTHOR_BY_GITHUB_ID_QUERY } from "./sanity/lib/queries"
 import { writeClient } from "./sanity/lib/write-client"
  
 export const { handlers, auth, signIn, signOut } = NextAuth({
+  secret: process.env.NEXTAUTH_SECRET,
+  debug: process.env.NODE_ENV === 'development',
   providers: [
     GitHub({
       clientId: process.env.GITHUB_ID!,

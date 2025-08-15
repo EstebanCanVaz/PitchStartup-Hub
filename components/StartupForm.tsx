@@ -97,7 +97,7 @@ const StartupForm = () => {
           id="category" 
           name="category" 
           className='startup-form_input' 
-          required placeholder='Startup Category (Tech, Health, Education ...)'
+          required placeholder='Startup Category (AI, Fintech, Healthcare...)'
         />
 
         {errors.category && <p className='startup-form_error'>{errors.category}</p>}
@@ -123,7 +123,7 @@ const StartupForm = () => {
           height={300}
           style={{borderRadius: 20, overflow: 'hidden'}}
           textareaProps={{
-            placeholder: 'Briefly describe your idea and what problem it solves',
+            placeholder: 'Describe your startup and the problem it addresses',
           }}
           previewOptions={{
             disallowedElements: ['style']
